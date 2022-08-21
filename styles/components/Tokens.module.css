@@ -1,0 +1,67 @@
+.topTokens {
+    padding: 20px;
+}
+.topTokens h6 {
+    color: #C3C5CB;
+    font-size: 13px;
+}
+.tokenTable {
+    /* width: 1200px; */
+    /* height: 450px; */
+    background: #191B1F;
+    border-radius: 16px;
+    padding: 10px 15px;
+}
+.tableHead {
+    color: #939393;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px 0px 15px 5px !important;
+
+    /* border: 1px solid white; */
+}
+.tableHead:nth-child(1) {
+    width: 20px;
+}
+.tableHead:nth-child(2) {
+    width: 500px;
+    
+}
+.tableHead:nth-child(3) {
+    width: 130px;
+}
+.tableHead:nth-child(4) {
+    width: 150px;
+}
+.tableHead:nth-child(5) {
+    width: 150px;
+}
+.tableHead:nth-child(6) {
+    width: 100px;
+}
+.tableRule {
+    margin: 20px 0px;
+}
+.tableData {
+    font-size: 12px;
+    color: white;
+    padding: 15px 0px 15px 5px !important;
+}
+.tableData:nth-child(2) {
+    /* border: 1px solid white; */
+    display: flex;
+   
+}
+.tableData:nth-child(4) {
+    color: #27AE60;
+}
+.tableData:nth-child(2) h6, .tableData:nth-child(2) span {
+    margin-left: 3px;
+    margin-top: 2px;
+}
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    margin-left: 10px;
+}

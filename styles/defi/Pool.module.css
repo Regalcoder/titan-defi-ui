@@ -1,0 +1,217 @@
+.poolContainer {
+    /* border: 1px solid black; */
+    height: 110%;
+    width: 700px;
+    margin: auto;
+    /* margin-top: 100px; */
+}
+
+.poolHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.poolHeader h6 {
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.poolOptions {
+    display: flex;
+    justify-content: space-between;
+}
+.moreSelect {
+    background: #FFFFFF;
+    border-radius: 12px;  
+    width: 73px;
+    height: 34px; 
+    padding: 5px 9px;  
+    margin-right: 10px;  
+}
+.moreSelect select {
+    border:none;
+    font-size: 13px;
+    text-align: center;
+}
+.position {
+    background: #FA4D17;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    height: 34px;
+    width: 120px;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.poolpositionContainer {
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 200px;
+    width: 700px;
+    margin-top: 25px;
+    padding: 20px 0px;
+}
+.containerContent {
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.containerContent p {
+    color: #6E727D;
+    font-size: 13px;
+    font-weight: 400;
+    width: 220px;
+    margin: auto;
+    line-height: 17px;
+}
+.connectButton {
+    background: #FA4D17;
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height: 35px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+
+.poolBlog {
+    height: 100px;
+    width: 700px;
+    /* border: 1px solid black; */
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.poolBlog a {
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+    text-decoration-line: none;
+}
+.poolBlog p {
+    margin-bottom: 0px;
+}
+.poolBlog span {
+    margin-left: 5px;
+}
+.liquidityBlog {
+    border: 1px solid #CED0D9;
+    border-radius: 20px;
+    height: 70px;
+    width: 380px;
+    padding: 15px;
+}
+.analyticsBlog {
+    border: 1px solid #CED0D9;
+    border-radius: 20px;
+    height: 70px;
+    width: 300px;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 767.98px) 
+{
+    .poolContainer {
+        /* border: 1px solid black; */
+        height: 400px;
+        width: 400px;
+        margin-top: 150px;
+    }
+    .poolpositionContainer {
+        width: 100%;
+    }
+    .poolBlog {
+        display: block;
+        width: 100%;
+    }
+    .liquidityBlog {
+        width: 100%;
+    }
+    
+    .analyticsBlog {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:375.98px) 
+{
+    .poolContainer {
+        width: 340px;
+        margin-top: 170px;
+        /* padding: 0px 20px; */
+        /* border: 1px solid black; */
+    }
+    .poolHeader {
+        width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .poolpositionContainer {
+        width: 340px;
+    }
+    .poolBlog {
+        display: block;
+        width: 250px;
+    }
+    .analyticsBlog {
+        margin-top: 10px;
+        width: 340px;
+    }
+    .liquidityBlog {
+        width: 340px;
+    }
+    .poolBlog a {
+        font-size: 12px;
+    }
+    .poolHeader h6 {
+        font-size: 14px;
+    }
+    .moreSelect {
+        padding: 4px 8px;
+        height: 33px;
+    }
+    .moreSelect select{
+        font-size: 12px;  
+    }
+    .position {
+        font-size: 12px;
+        width: 170px;
+        height: 33px;
+    }
+    .connectButton {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width:320.98px) 
+{
+    .poolContainer {
+        width: 300px;
+        margin-top: 170px;
+        /* border: 1px solid black; */
+    }
+    .poolpositionContainer {
+        width: 300px;
+    }
+    .poolBlog {
+        width: 100%;
+    }
+    .analyticsBlog {
+        margin-top: 10px;
+        width: 100%
+    }
+    .liquidityBlog {
+        width: 100%
+    }
+    .poolBlog a {
+        font-size: 11px;
+    }
+    .containerContent p {
+        font-size: 12px;
+    }
+}

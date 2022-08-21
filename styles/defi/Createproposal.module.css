@@ -1,0 +1,193 @@
+.createContainer {
+    /* height: 990px; */
+    width: 670px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 64px rgba(255, 207, 192, 0.2);
+    border-radius: 24px;
+    padding: 18px;
+}
+.createContainer Image {
+    cursor: pointer;
+}
+.proposalTitle {
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -24px;
+}
+.tips {
+    background: rgba(255, 210, 196, 0.4);
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin-top: 25px;
+    /* height: 90px; */
+}
+.tips p {
+    color: #FA4D17;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tips p a {
+    color: #FA4D17;
+}
+.action, .sendTo {
+    background: #F7F8FA;
+    border: 1px solid #EDEEF2;
+    border-radius: 20px;
+    padding: 17px;
+    height: 80px;
+    margin-top: 10px;
+}
+.action h6, .sendTo h6 {
+    color: #565A69;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.action .actionSelect {
+    border: none;
+    background-color: #F7F8FA;
+    outline: none;
+    padding-right: 78%;
+}
+.action option {
+    /* margin-right: 30px; */
+    width: 100px;
+}
+.sendTo input {
+    border: none;
+    background-color: transparent;
+    color: #565A69;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 400;
+}
+.valueAmount {
+    background: #F7F8FA;
+    border: 1px solid #EDEEF2;
+    border-radius: 20px;
+    padding: 17px;
+    height: 60px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.valueAmount input {
+    border: none;
+    background-color: transparent;
+    color: #565A69;
+    font-size: 18px;
+}
+.tokenSelect {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 16px;
+    height: 40px;
+    width: 110px;
+    padding: 4px 5px;
+    display: flex;
+    margin-top: -8px;
+}
+.tokenSelect select {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 5px;
+    outline: none;
+}
+.tokenSelect option {
+    border: 1px solid black;
+    width: 30px;
+}
+.tokenSelect option:checked {
+    font-weight: bold;
+}
+.proposalReport {
+    margin-top: 10px;
+    height: 550px;
+    background: #F7F8FA;
+    border: 1px solid #EDEEF2;
+    border-radius: 20px;
+    padding: 17px;
+    margin-bottom: 15px;
+}
+.proposalReport h6 {
+    color: #565A69;
+    font-size: 12px;
+
+}
+.proposalReportTitle {
+    /* color: rgba(0, 0, 0, 0.2); */
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.proposalReport hr {
+    color: rgba(255, 255, 255, 1);
+    height: 10px;
+}
+.summary h6, .methodology h6, .conclusion h6 {
+    color: rgba(0, 0, 0, 0.2);
+}
+.summary input, .methodology input, .conclusion input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+    
+}
+.submitAction {
+    margin-top: 15px;
+    margin: auto;
+    background: #FA4D17;
+    border: 1px solid #DA2D2B;
+    border-radius: 20px;
+    height: 44px;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    /* padding: 15px 0px; */
+}
+.help {
+    font-size:13px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.help a {
+    color: #FA4D17;
+    text-decoration-line: none;
+}
+
+@media only screen and (max-width:575.98px) 
+{
+    .createContainer {
+        width: 100%;
+    }
+    .action .actionSelect {
+        padding-right: 65%;
+    }
+}
+@media only screen and (max-width:375.98px) 
+{
+    .action .actionSelect {
+        padding-right: 60%;
+    }
+}
+@media only screen and (max-width:320.98px) 
+{
+    .createContainer {
+        padding: 18px 10px;
+    }
+    .action .actionSelect {
+        padding-right: 55%;
+    }
+    .submitAction {
+        font-size: 12px;
+    }
+}

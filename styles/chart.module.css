@@ -1,0 +1,192 @@
+
+/* search modal styling */
+
+.searchModalBody{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.searchModalContainer{
+    position: absolute;
+    left: 580px;
+    top: 0px;
+    background: #191B1F;
+    border: 1px solid #FA4D17;
+    border-radius: 8px;
+    width: 760px;
+    height: 576px;
+    font-style: normal;
+    font-size: 12px;
+    padding: 25px;
+    color: white;
+}
+
+.topButtonContainer{
+    width: 118px;
+    height: 23px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topButton{
+    /* width: 56px; */
+    height: 23px;
+    background-color: inherit;
+    border-radius: 4px;
+    line-height: 15px;
+    font-weight: 400;
+    color: #C7C2C1;
+    border: none;
+    padding: 4px 8px;
+}
+
+.topButton:focus,
+.topButton:hover{
+    background-color: #FA4D17;
+    color: white;
+}
+
+.tableHead{
+    width: 100%;
+    height: auto;
+}
+
+.tabelRow{
+    width: 100%;
+    height: 50px;
+}
+
+.tableHeadFont{
+    color: #C3C5CB;
+    width: 40%;
+    height: 45px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.tableHeadFont2{
+    color: #C3C5CB;
+    width: 20%;
+    height: 45px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+
+.borderLine{
+    background: #1F2128;
+    border-radius: 0px;
+    width: 100%;
+    height: 1px;
+}
+
+.tabledataFont{
+    width: 40%;
+    height: 45px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.tabledataFont2{
+    width: 20%;
+    height: 45px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: right;
+}
+
+.fontSpan{
+    color: #6C7284;
+    font-weight: 400;
+}
+
+.seeMoreLink{
+    color: #A6E521;
+    line-height: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 13px;
+}
+.seeMoreLink:hover {
+    color: inherit;
+}
+
+.fontSpan1{
+    background-color: #40444F;
+    border-radius: 8px;
+    width: 45px;
+    height: 30px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 5px 10px;
+    margin: 0 18px;
+    color: white;
+}
+
+
+/* select network modal styling */
+
+.selectNetworkOverlay{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+.selectNetworkContainer{
+    width: 254px;
+    height: 228px;
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    background-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    border: 1px solid #FA4D17;
+}
+
+.selectFont{
+    color: #B7B5B5;;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.dropDownButton{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 30px;
+    /* background-color: #000000; */
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.ethLogo{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.selectFont2{
+    color: white;
+    /* color: #B7B5B5; */
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.dropDownButton:focus,
+.dropDownButton:hover{
+    cursor: pointer;
+
+    /* background-color: #1F2128; */
+}
+

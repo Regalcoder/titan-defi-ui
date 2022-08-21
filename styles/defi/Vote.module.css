@@ -1,0 +1,153 @@
+.voteContainer {
+    height: auto;
+    width: 570px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 0px 10px;
+    margin-top: 120px;
+}
+.blogContents {
+    padding: 2px 20px;
+    margin: auto;
+}
+.blogContents h6 {
+    font-size: 14px;
+}
+.blogContents p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.blogContents a {
+    color: black;
+    font-size: 12px;
+    text-decoration-line: underline;
+}
+.proposals {
+    margin-top: 30px;
+}
+.proposalTitle {
+    display: flex;
+    justify-content: space-between;
+}
+.proposalTitle h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.proposalTitle button {
+    background: #FA4D17;
+    border-radius: 6px;
+    height: 32px;
+    width: 130px;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+.proposalTable {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    height: auto;
+}
+.proposalList {
+    height: 58px;
+    background-color: #F7F8FA;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.proposalTime {
+    font-size: 14px;
+    margin-top: 9px;
+}
+.proposalRequest {
+    font-size: 13px;
+    width: 340px;
+    line-height: 18px;
+    font-weight: 400;
+}
+/* .proposalList div:nth-child(2){
+    text-transform: uppercase;
+} */
+.statusBadge {
+    background: #FFFFFF;
+    border: 1px solid #CED0D9;
+    border-radius: 8px;
+    font-size: 11px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.statusBadgegreen {
+    background: #FFFFFF;
+    border: 1px solid #007D35;
+    color:  #007D35;
+    border-radius: 8px;
+    font-size: 11px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.threshold {
+    color: #6E727D;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 767.98px)  
+{
+    .voteContainer {
+        width: 100%;
+        height: auto;
+    }
+    .proposalRequest {
+        width: 240px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .proposalTime {
+        font-size: 13px;
+    }
+    .proposalList {
+        padding: 18px 12px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width:375.98px) 
+{
+    .statusBadge, .statusBadgegreen {
+        width: 70px;
+        height: 28px;
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .proposalList {
+        padding: 12px 10px;
+    }
+    .proposalRequest {
+        font-size: 12px;
+        margin-left: 9px;
+        width: 210px;
+    }
+    .proposalList {
+        height: 74px;
+    }
+}
+@media only screen and (max-width:320.98px) 
+{
+    .proposalRequest {
+        width: 163px;
+        font-size: 11px;
+        margin-left: 3px;
+    }
+}

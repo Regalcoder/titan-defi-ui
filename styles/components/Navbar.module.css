@@ -1,0 +1,321 @@
+/* .Navbar {
+    
+} */
+.Navbar {
+  height: 70px;
+  /* border: 1px solid black; */
+  width: 100%;
+  background-color: #fcfcfc;
+  /* background-image: linear-gradient(112.83deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.8) 110.84%); */
+  border: 1.5px solid #FFFFFF;
+  box-shadow: 0px 7px 23px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(21px);
+  border-radius: 0px 0px 15px 15px;
+}
+/* @media only screen and (max-width:575.98px) 
+{
+  .Navbar {
+    height: 60px;
+    border: 1px solid black;
+  }
+} */
+
+.logo img {
+  /* border: 1px solid black; */
+  width: 130px;
+  height: 38px;
+}
+
+.defiTabs {
+  background-color: white;
+  width: 300px;
+  padding: 3px;
+  border: none;
+  border-radius: 14px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  /* border: .6px solid #6E727D; */
+}
+
+.tabLinks:hover,
+.tabLinks:focus,
+.tabLinks:active {
+  background: #FFCFC0;
+  border-radius: 14px;
+  color: #000;
+  box-shadow: inset 0 0 0 2em var(--hover);
+  font-size: 14px;
+}
+.tabLinks{
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  width: 68px;
+  height: 34px;
+  /* margin-top: 2.5px; */
+  font-size: small;
+  color: rgba(0, 0, 0, 0.4);
+  
+  text-transform:capitalize;
+  
+}
+
+.tabLinks:nth-child(4) {
+  /* border:1px solid black; */
+  width: 80px;
+}
+.rightNav {
+  display: flex;
+  float: right;
+  /* border: 1px solid black; */
+}
+.navtokendropdown {
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 16px;
+  height: 35px;
+  width: 150px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.navtokendropdown:nth-child(2){
+  display: none;
+}
+.navtokendropdown select {
+  float: right;
+  border: none;
+  font-size: 14px;
+  background-color: transparent;
+  /* border: 1px solid black; */
+}
+.connect {
+  background: #FFD7CA;
+  border: none;
+  border-radius: 16px;
+  padding: 5px 10px;
+  color: #FA4D17;
+  font-size: 14px;
+  text-transform: capitalize;
+  width: auto;
+  margin-left: 7px;
+}
+.connect:hover {
+  /* color: white; */
+  /* transition: .3s ease-out; */
+}
+.accountOptions {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 14px;
+  height: 34px;
+  width: auto;
+  margin-left: 7px;
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+  padding: 0px 8px 4px;
+
+}
+
+
+@media only screen and (max-width:1200px) and (min-width: 969px)
+{
+  .defiTabs {
+    margin-left: -20px;
+  }
+  .rightNav{
+    /* height: 60px; */
+    /* border: 1px solid black; */
+  }
+  .connect {
+    padding: 5px 8px;
+    color: #FA4D17;
+    font-size: 13px;
+    width: auto;
+  }
+  .navtokendropdown {
+    height: 35px;
+    width: 120px;
+    padding: 5px 7px;
+  }
+  .navtokendropdown select {
+    font-size: 12px;
+    margin-top: 3px;
+    /* border: 1px solid black; */
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 600px) 
+{
+ 
+  .logo img {
+    width: 110px;
+    height: 30px;
+    margin-top: 4px;
+  }
+  .connect {
+    padding: 5px 8px;
+    color: #FA4D17;
+    font-size: 11px;
+    width: 100px;
+    margin-left: 5px;
+  }
+  .navtokendropdown {
+    height: 35px;
+    width: 120px;
+    padding: 5px 7px;
+  }
+  .navtokendropdown select {
+    font-size: 11px;
+    margin-top: 3px;
+    /* border: 1px solid black; */
+  }
+  .accountOptions {
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    padding-top: 0px;
+  }
+  .defiTabs {
+    width: 230px;
+    padding: 3px;
+    margin-left: 30px;
+    /* border: 1px solid black; */
+  }
+  
+  .tabLinks:hover,
+  .tabLinks:focus,
+  .tabLinks:active {
+    font-size: 12px;
+  }
+  .tabLinks{
+    width: 60px;
+  }
+  
+  .tabLinks:nth-child(4) {
+    /* border:1px solid black; */
+    width: 85px;
+  }
+}
+
+@media only screen and (max-width: 767.98px) 
+{
+  .Navbar {
+    position: relative;
+    background-color: transparent;
+    height: 0px;
+    border: none;
+  }
+  .logo img {
+    width: 90px;
+    height: 27px;
+    margin-top: 4px;
+  }
+  .defiTabs {
+    background-color: white;
+    width: auto;
+    padding: 3px;
+    border: none;
+    border-radius: 14px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* margin: unset; */
+    position: absolute;
+    top: 90px;
+    left: 40px;
+    /* right: 0px; */
+    /* margin: auto; */
+    /* border: 1px solid black; */
+  }
+  
+  .tabLinks:hover,
+  .tabLinks:focus,
+  .tabLinks:active {
+    background: #FFCFC0;
+    border-radius: 14px;
+    color: #000;
+    box-shadow: inset 0 0 0 2em var(--hover);
+    font-size: 14px;
+  }
+  .tabLinks{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    /* width: 68px; */
+    height: 34px;
+    /* margin-top: 2.5px; */
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    
+    text-transform:capitalize;
+    
+  }
+  
+  .tabLinks:nth-child(4) {
+    /* border:1px solid black; */
+    width: auto;
+  }
+
+
+  .navtokendropdown:nth-child(1){
+    display: none;
+  }
+  .navtokendropdown:nth-child(2) {
+    display: block;
+    border-radius: 16px;
+    height: 35px;
+    width: 98px;
+    padding: 5px 6px;
+    cursor: pointer;
+  }
+  .rightNav {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+  }
+  .connect {
+    display: none;
+  }
+  .accountOptions {
+    height: auto;
+  }
+}
+
+
+@media only screen and (max-width: 375.98px)
+{
+  .defiTabs {
+    /* left: -20px; */
+    margin-left: 1em;
+    /* width: 90%; */
+  }
+  .tabLinks{
+    background-color: white;
+    border: none;
+    border-radius: 12px;
+    width: 58px;
+    height: 34px;
+    /* margin-top: 2.5px; */
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    
+    text-transform:capitalize;
+    
+  }
+  
+  .tabLinks:nth-child(4) {
+    /* border:1px solid black; */
+    width: auto;
+  }
+ 
+}
+@media only screen and (max-width: 320.98px)
+{
+  .defiTabs {
+    margin-left: -10px;
+  }
+}

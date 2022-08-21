@@ -1,0 +1,306 @@
+.addContainer {
+    height: 530px;
+    width: 720px;
+    background-color: #fff;
+    box-shadow: 0px 24px 64px rgba(255, 207, 192, 0.2);
+    border-radius: 24px;  
+    margin: auto;  
+    padding: 30px 25px;    
+}
+.addHeader {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    /* border: 1px solid black; */
+}
+.addHeader button {
+    border: none;
+    background-color: white;
+    color: rgba(0, 104, 252, 1);
+    text-transform: capitalize;
+    font-size: 12px;
+    margin-right: 20px;
+}
+.addHeader h6 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.addContainer hr {
+    margin-top: 20px;
+    color: #EDEEF2;
+    height: 2px;
+}
+.pairPrice {
+    /* border: 1px solid black; */
+    /* height: 360px; */
+}
+.selectPair, .setPrice {
+    /* border: 1px solid black; */
+    height: 400px;
+}
+.selectPair h6 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.selectPair .selectButtons {
+    display: flex;
+    justify-content: space-between;
+}
+.selectPair button {
+    background: #FA4D17;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 14px;   
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    padding: 8px 3px;
+    width: 148px;
+    margin-top: 6px;
+}
+.selectPair button span {
+    margin-left: 10px;
+    margin-top: -4px;
+   
+}
+.feeTier {
+    margin-top: 10px;
+    border: 1px solid #EDEEF2;
+    border-radius: 14px;
+    height: 58px;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+.feeInfo h6 {
+    font-size: 14px;
+
+}
+.feeInfo p {
+    font-size: 10px;
+    color: #565A69;
+    margin-top: -10px;
+   
+    
+}
+.feeTier input {
+    background: #F7F8FA;
+    border-radius: 6px;
+    color: #565A69;
+    border: none;
+    width: 35px;
+    height: 30px;
+    padding: 4px;
+    font-size: 12px;
+    /* border: 1px solid black; */
+}
+.feeOptions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.feeSelection {
+    border: 1px solid #EDEEF2;
+    border-radius: 13px;
+    height: 85px;
+    width: 85px;
+    padding: 6px;
+    margin-right: 3px;
+}
+.feeSelection:nth-child(3) {
+    border: 1px solid rgba(250, 77, 23, 1);
+}
+.feeSelection h6 {
+    font-size: 15px;
+}
+.feeSelection p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 9px;
+    font-weight: 400;
+    margin-top: -3px;
+    margin-bottom: 5px;
+}
+.badge {
+    font-size: 9px;
+    background: #EDEEF2;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.deposit {
+    margin-top: 12px;
+}
+.deposit h6 {
+    color: rgba(0, 0, 0, 0.3);
+    font-size:13px;
+    font-weight: 400;
+}
+.swapFrom, .swapTo {
+    background: rgba(255, 207, 192, 0.2);
+    border: 1px solid rgba(205, 207, 232, 0.1);
+    border-radius: 16px;
+    /* width: 420px; */
+    height: 60px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+.swapTo {
+    margin-top: 10px;
+}
+.swapTo input[type="text"], .swapFrom input[type="text"] {
+    width: 100px;
+}
+.swapinputNumber {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+/* text-align: left; */
+}
+.tokenSelect {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 16px;
+    height: 35px;
+    width: 80px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4px;
+}
+.tokenSelect h6 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    margin-left: 3px;
+    font-weight: 500;
+}
+.selectmyToken {
+    background: #FA4D17;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
+    border-radius: 16px;
+    width: 140px;
+    height: 34px;
+    padding: 3px;
+    margin-top: -3px;
+    
+}
+.selectmyToken select {
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+    padding: 5px;
+    outline: none;
+    color: white;
+    font-weight: 300;
+}
+ 
+.setPrice {
+    /* padding-left: 10px; */
+}
+.setPrice h6 {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.chartGraph {
+    height: 190px;
+    border: 1px solid black;
+}
+.priceRange {
+    /* border: 1px solid black;  */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.minPrice, .maxPrice {
+    border: 1px solid #CED0D9;
+    border-radius: 14px;
+    height: 85px;
+    width: 150px;
+    padding: 8px;
+    text-align: center;
+}
+.minPrice h6, .maxPrice h6 {
+    font-size: 11px;
+    color: #565A69;
+    font-weight: 400;
+}
+.increment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.increment .figures {
+    font-size: 18px;
+    font-weight: 500;
+}
+.increment input[type="submit"] {
+    background: #F7F8FA;
+    border-radius: 8px;
+    width: 28px;
+    border: none;
+}
+
+.range {
+    border: 1px solid #EDEEF2;
+    border-radius: 6px;
+    height: 30px;
+    font-size: 11px;
+    width: 100%;
+    background-color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: 9px;
+}
+.submitAction {
+    background: #FFE2D9;
+    border-radius: 8px;
+    color: #FA4D17;
+    height: 42px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 18px;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width:575.98px) 
+{
+    .addContainer {
+        width: 100%;
+        height: 950px;
+    }
+}
+
+
+
+@media only screen and (max-width:375.98px) {
+    .addContainer {
+        padding: 30px 16px;
+        /* border: 1px solid black; */
+    }
+    .selectPair button {
+        font-size: 12px;
+        padding: 8px 3px;
+        width: 130px;
+    }
+    .feeOptions {
+        margin-top: 10px;
+        /* justify-content: space-between; */
+        /* border: 1px solid black; */
+    }
+    .feeSelection {
+        width: 105px;
+        padding: 6px;
+        margin-right: 3px;
+    }
+}

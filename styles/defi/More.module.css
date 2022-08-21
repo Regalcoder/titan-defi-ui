@@ -1,0 +1,180 @@
+.moreContainer {
+    /* height: 1400px; */
+    width: 570px;
+    /* border: 1px solid black; */
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 24px 64px rgba(255, 207, 192, 0.2);
+    border-radius: 12px;        
+}
+.moreContainer img {
+    border: 1px solid black;
+}
+.proposalTitle {
+    font-size: 14px;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    width: 100px;
+    font-weight: 400;
+   
+}
+/* .moreContainer:nth-child() {
+    margin-top: 10px;
+    border: 1px solid black;
+} */
+.statusBadge {
+    background: #FFFFFF;
+    border: 1px solid #CED0D9;
+    border-radius: 8px;
+    font-size: 11px;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    float: right;
+}
+.votingTitle {
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.voteEnd {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #565A69;
+    font-weight: 400;
+}
+.voteResults {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.voteFor, .voteAgainst {
+    background: #F7F8FA;
+    border-radius: 12px;
+    height: 60px;
+    width: 260px;
+    padding: 12px;
+}
+.values {     
+    display: flex;
+    justify-content: space-between;
+}
+.voteFor h6, .voteAgainst h6{
+    font-size: 13px;
+    font-weight: 400;
+}
+.forValues, .againstValues {
+    font-size: 13px;
+    font-weight: bold;
+}
+.voteFor hr {
+    background: #007D35;
+    border-radius: 4px;
+    height: 4px;
+    margin-top: 7px;
+}
+.voteAgainst hr {
+    background: #DA2D2B;
+    border-radius: 4px;
+    height: 4px;
+    margin-top: 7px;
+}
+.details, .description, .summary, .funding, .why, .proposer {
+    margin-top: 30px;
+
+}
+.details h5, .description h5, .summary h5, .funding h5, .why h5 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.details h6 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.details .token {
+    color: #FA4D17;
+}
+.details .address {
+    color: #FA4D17;
+}
+
+.description h2 {
+    font-weight: 400;
+    font-size: 29px;
+}
+.summary h6 {
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 20px;
+    /* width: 300px; */
+    margin-left: 35px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.funding h6, .why h6 {
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 20px;
+    margin-top: 20px;
+}
+.proposer h5 {
+    font-size: 16px;
+    font-weight: 400
+    /* margin-top: 20px; */
+}
+.proposer .address {
+    color: #FA4D17;
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width:575.98px) 
+{
+    .moreContainer {
+        width: 100%;
+    }
+    .voteResults {
+        display: block;
+    }
+    .voteAgainst {
+        margin-top: 20px;
+    }
+    .voteAgainst, .voteFor {
+        width: 100%;
+    }
+    .details h6 {
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width:375.98px) 
+{
+    .proposer .address {
+        font-size: 13px;
+    }
+    .details h6 {
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width:320.98px) 
+{
+    .moreContainer {
+        padding: 20px 13px;
+    }
+    .proposer .address {
+        font-size: 11.4px;
+    }
+    .details h6 {
+        width: 100%;
+        font-size: 11.4px;
+        line-height: 20px;
+    }
+}

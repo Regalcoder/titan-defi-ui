@@ -1,0 +1,197 @@
+.chartContainer {
+    /* height: 1400px; */
+    width: 100%;
+    /* border: 1px solid white; */
+}
+.poolPagination {
+    /* height: 40px; */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.pagination a {
+    color: white;
+    font-size: 12px;
+    text-decoration-line: none;
+    margin-right: 8px;
+    margin-bottom: 30px;
+    
+}
+.pagination a:hover {
+    text-decoration-line: underline;
+}
+.pagination a:nth-child(1) {
+    color: #C3C5CB;
+}
+.pagination .poolex {
+    color: white;
+    font-size: 12px;
+    margin-top: 2px;
+}
+.poolex span {
+    color: #C3C5CB;
+    font-weight: 300;
+}
+.fav {
+    display: flex;
+    /* border: 1px solid white; */
+}
+.fav img {
+    color: white;
+    margin-right: 5px;
+}
+.fav a{
+    margin-top: -4px;
+}
+
+.poolexHeading {
+    /* height: 60px; */
+    /* border: 1px solid white; */
+    margin-top: 10px;
+    padding: 0px 20px;
+}
+.poolTokens ul{
+    display: flex;
+    width: 180px;
+    /* border: 1px solid white; */
+    padding: 0px;
+}
+.poolTokens li h6 {
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    margin-top: 5px;
+    /* letter-spacing: 1.3px; */
+}
+.poolTokens li h6 span {
+    color: #C3C5CB; 
+    font-weight: 300;
+}
+/* .poolTokens ul li:nth-child(2) {
+    margin-left: -14px;
+} */
+.poolTokens ul li:nth-child(3) {
+    display: flex;
+}
+
+
+.poolexAction {
+    /* height: 40px; */
+    /* border: 1px solid white; */
+    margin-top: -20px;
+    display:  flex;
+    justify-content: space-between;
+}
+.tokenValue {
+    font-size: 34px;
+    color: white;
+    font-weight: 400;
+}
+.growthPercent {
+    color: #27AE60;
+    font-size: 14px;
+    margin-left: -5px;
+}
+.addButton {
+    width: 170px;
+    height: 40px;
+    background: #40444F;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: white;
+    text-decoration-line: none;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #C3C5CB;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.addButton:hover, .tradeButton:hover {
+    color: white;
+}
+.actionButtons .tradeButton {
+    width: 130px;
+    height: 40px;
+    background: #FA4D17;
+    border-radius: 10px;
+    padding: 12px 15px;
+    color: white;
+    text-decoration-line: none;
+    font-size: 14px;
+}
+.poolChartrow {
+    height: 420px;
+    /* border: 1px solid white; */
+    margin-top: 30px;
+    padding: 0px 20px;
+}
+.tokenInfo, .chartInfo {
+    height: 420px;
+    /* border: 1px solid white; */
+    border-radius: 14px;
+    background: #191B1F;
+    padding: 16px;
+}
+.lockedTokens {
+    height: 110px;
+    background: #2C2F36;
+    border-radius: 14px;
+    padding: 16px;
+}
+.lockedTokens h6 {
+    color: #C3C5CB;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400
+}
+.tokenOne, .tokenTwo {
+    /* border: 1px solid white;  */
+    display: flex;
+    justify-content: space-between;
+}
+.tokenstoLock ul {
+    padding: 0px;
+}
+.tokenOne .tokenName, .tokenTwo .tokenName  {
+    font-size: 12px;
+    color: white;
+}
+.tokenstoLock h6 {
+    font-size: 12px;
+    color: white;
+    margin-top: 8px;
+}
+
+.tokenDetails {
+    margin-top: 20px;
+
+}
+.tvl h6, .volume h6, .trading h6, .fees h6 {
+    color: #C3C5CB;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tvl h4, .volume h4, .trading h4, .fees h4 {
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+}
+.tvl h5 {
+    color: #FD4040;
+    font-size: 14px;
+    font-weight: 400;
+}
+.volume h5 {
+    color: #27AE60;
+    font-size: 14px;
+    font-weight: 400;
+}
+.volume, .fees, .trading {
+    margin-top: 23px;
+}

@@ -1,0 +1,825 @@
+/* Modal1 component styling */
+
+.overlay{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    z-index: 100;
+  }
+  
+  .modalContainer{
+    padding: 17px;
+    position: fixed;
+    width: 300px;
+    height: 320px;
+    right: 0px;
+    top: 70px;
+    background: #FFFFFF;
+    border: 1px solid #CED0D9;
+    border-radius: 16px;
+    z-index: 100;
+    }
+  
+  .headerText{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color: #000000;
+    }
+  
+  .slippage{
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  
+  .flex1{
+      display: flex;
+      height: 30.7px;
+      width: 300px;
+      gap: 10px;
+    }
+  
+  .autoButton{
+      width: 48px;
+      height: 30.64px;
+      background: #FA4D17;
+      border-radius: 20px;
+      color: white;
+      border: none;
+    }
+  
+  .inputBox{
+      background: #FFFFFF;
+      border: 1px solid #D5D7DF;
+      border-radius: 20px;
+      width: 208px;
+      height: 30.64px;
+      padding-left: 155px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  
+  .inputBox::-webkit-outer-spin-button,
+  .inputBox::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .inputBox:focus {
+    outline: none;
+  }
+  
+  .font3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 17px;
+  }
+  
+  .inputBox2{
+    background: #FFFFFF;
+    border: 1px solid #D5D7DF;
+    border-radius: 20px;
+    width: 84px;
+    height: 30.64px;
+    box-sizing: border-box;
+    padding-left: 55px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .inputBox2::-webkit-outer-spin-button,
+  .inputBox2::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .inputBox2:focus {
+    outline: none;
+  }
+  
+  .family{
+    font-size: 14px;
+  }
+  
+  .headerText2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  .flex2{
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+  }
+  
+  .font4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .toggleButtonContainer1{
+    width: 78px;
+    height: 28.6px;
+    background: #f3e6e2;
+    border-radius: 10px;
+  }
+  
+  .toggleButton{
+    width: 34px;
+    height: 24.51px;
+    background: #f3e6e2;
+    border-radius: 10px;
+    margin: 2px 2px;
+    border: none;
+    padding: 0.5px;
+  }
+  
+  .toggleButton:hover,
+  .toggleButton:focus {
+      box-shadow: inset 0 0 0 2em var(--hover);
+      background-color: #FA4D17;
+    }
+  
+    .toggleButton1{
+      width: 34px;
+      height: 24.51px;
+      background: #f3e6e2;
+      border-radius: 10px;
+      margin: 2px 2px;
+      border: none;
+      padding: 0.5px;
+    }
+    
+    .toggleButton1:hover,
+    .toggleButton1:focus {
+        box-shadow: inset 0 0 0 2em var(--hover);
+        background-color: #888D9B;
+      }
+
+      
+/* select token (modal2) styling */
+
+.mainBodyModal{
+    position: fixed;
+    width: 100%;
+    height: 90vh;
+    z-index: 2;
+  }
+  .modalContainer2{
+  position: fixed;
+  width: 394px;
+  height: 547px;
+  right: 35px;
+  top: 70px;
+  background: #FFFFFF;
+  border: 1px solid #CED0D9;
+  border-radius: 16px;
+  z-index: 2;
+  }
+  
+  .topFlex{
+  display: flex;
+  justify-content: space-between;
+  margin: 14px 14px 0 14px;
+  }
+  
+  .headerText{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #000000;
+  }
+  
+  .tokenInputBox{
+  width: 354px;
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #D5D7DF;
+  border-radius: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 15px;
+  margin: 0 14px;
+  }
+  
+  .tokenInputBox:focus{
+  outline: none;
+  }
+  
+  .ButtonFlex{
+  display: flex;
+  gap: 8px;
+  margin: 14px 14px 0 14px;
+  }
+  
+  .buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  width: 80px;
+  height: 36px;
+  background: #F7F8FA;
+  border: 1px solid #D5D7DF;
+  border-radius: 12px;
+  font-weight: 500;
+  }
+  
+  .resize{
+    padding-top: 10px;
+  }
+  
+  .imgBorder{
+    border-radius: 16px;
+  }
+  
+  .buttons1{
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  gap: 5px;
+  align-items: center;
+  height: 36px;
+  background: #F7F8FA;
+  border: 1px solid #D5D7DF;
+  border-radius: 12px;
+  font-weight: 500;
+  }
+  
+  .buttons2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  width: 90px;
+  height: 36px;
+  background: #F7F8FA;
+  border: 1px solid #D5D7DF;
+  border-radius: 12px;
+  font-weight: 500;
+  }
+  
+  .buttons:hover,
+  .buttons:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    background-color: #888D9B;
+    color: white;
+  }
+  
+  .buttons1:hover,
+  .buttons1:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    background-color: #888D9B;
+    color: white;
+  }
+  
+  .buttons2:hover,
+  .buttons2:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    background-color: #888D9B;
+    color: white;
+  }
+  
+  .line{
+  border: 1px solid #edeef3;
+  margin-top: 20px;
+  }
+  
+  .listFlex{
+  width: 100%;
+  height: 230px;
+  overflow: scroll;
+  overflow-x: hidden;
+  }
+  
+  .flexList{
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  }
+  
+  .flexList1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    }
+  
+  .tokenFont{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  padding-top: 5px;
+  }
+  
+  .tokenFont:hover,
+  .tokenFont:focus {
+    box-shadow: inset 0 0 0 2em var(--hover);
+    color: #888D9B;
+  }
+  
+  .lastDiv{
+  display: flex;
+  padding: 0 110px;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 90px;
+  background: #F7F8FA;
+  border-radius: 0px 0px 16px 16px;
+  }
+  
+  .penResize{
+  width: auto;
+  height: 18px;
+  }
+  
+  .listFont{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FA4D17;
+  padding-bottom: 2px;
+  text-decoration: none;
+  }
+  
+  .listFont:hover,
+  .listFont:focus{
+    color: #FA4D17;
+  }
+
+     /* modal3 styling (connect wallet modal) */
+.modalOverlay{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+  }
+  
+  .modalContainer3{
+  position: fixed;
+  width: 394px;
+  height: 547px;
+  right: 35px;
+  top: 70px;
+  background: #FFFFFF;
+  border: 1px solid #CED0D9;
+  border-radius: 16px;
+  z-index: 3;
+  }
+  
+  .modalTitleflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px 0px;
+  }
+  
+  .modalTitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  
+  .modalBody1{
+    margin: 0 16px 15px;
+    padding: 10px 10px;
+    width: 360px;
+    height: 95px;
+    background: #F7F8FA;
+    border: 1px solid #D5D7DF;
+    border-radius: 12px;
+  }
+  
+  .body1Font{
+    width: 320px;
+    height: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .linkFont{
+    color: #FA4D17;
+  }
+  
+  .linkFont2{
+    color: #FA4D17;
+    text-decoration: none;
+  }
+  
+  .metaFlex{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 15px 8px;
+    margin: auto;
+    width: 360px;
+    height: 52px;
+    background: #EDEEF2;
+    border: 1px solid #D5D7DF;
+    border-radius: 12px;
+  }
+  
+  .metaFont{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 13px;
+  }
+  
+  .walletFlex{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 360px;
+    height: 52px;
+    background: #EDEEF2;
+    border: 1px solid #D5D7DF;
+    border-radius: 12px;
+    margin: 15px auto;
+    padding: 0 10px;
+  }
+  
+  .walletFont{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    padding-top: 13px;
+  }
+  
+  .border{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(213, 215, 223, 0.6);
+  }
+  
+  .lastFlex{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 17px 5px;
+  }
+  
+  .detailsFlex{
+    display: flex;
+    gap: 5px;
+  }
+  .apiFont{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  /* modal4 styling */
+
+  .modal4Body{
+      width: 100%;
+      height: 90vh;
+      z-index: 4;
+      position: fixed;
+  } 
+  
+  .modalFourContainer{
+    box-sizing: border-box;
+    position: fixed;
+    width: 394px;
+    height: 547px;
+    right: 35px;
+    top: 70px;
+    background: #FFFFFF;
+    border: 1px solid #CED0D9;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .subContainer1{
+    padding: 10px 10px 0;
+  }
+  
+  
+  .firstUpperFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.manageFont{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.buttonContainer{
+    width: 100%;
+    height: 40px;
+    background-color: #F7F8FA;
+    border: 1px solid #D5D7DF;
+    border-radius: 12px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.Buttons{
+    background-color: #F7F8FA;
+    border-radius: 12px;
+    width: 48%;
+    height: 32px;
+    margin: auto;
+    border: none;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.Buttons:hover,
+.Buttons:focus{
+    background-color: #888D9B;
+    color: white;
+    border: 1px solid #D5D7DF;
+}
+
+.seacrh{
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    border: 1px solid #D5D7DF;
+    border-radius: 16px;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+}
+
+.seacrh:focus{
+    outline: none;
+}
+
+.brandList{
+    height: 355px;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.brandListFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 67px;
+    background-color: #FA4D17;
+    border-radius: 16px;
+    margin: 5px 12px 20px;
+} 
+
+.brandListFlex2{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 67px;
+  background-color: #2172E5;
+  border-radius: 16px;
+  margin: 5px 12px 20px;
+} 
+
+.brandListFlex3{
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 67px;
+  background-color: #EDEEF2;
+  border-radius: 16px;
+  margin: 5px 12px 20px;
+} 
+
+.brandLists{
+    display: flex;
+    margin: 10px ;
+    gap: 10px;
+}
+
+.inchContainer{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    padding-top: 3px;
+}
+
+.brandFont{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.tokenFont2{
+    color: white;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.buttonToggleContainer{
+    width: 75px;
+    height: 39px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0px 7px 8px;
+
+}
+
+.buttonToggle{
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    padding-top: 9px;
+}
+
+.buttonToggle2{
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    padding-top: 9px;
+}
+
+.buttonToggle3{
+  width: 30px;
+  height: 30px;
+  background-color: inherit;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 20px;
+  border: none;
+  padding-top: 9px;
+}
+
+.buttonToggle:hover,
+.buttonToggle:focus {
+    background-color: #FA4D17;
+    font-size: 0;
+}
+
+.buttonToggle2:hover,
+.buttonToggle2:focus {
+    background-color: #2172E5;
+    font-size: 0;
+}
+
+.buttonToggle3:hover,
+.buttonToggle3:focus {
+    background-color: #EDEEF2;
+    font-size: 0;
+}
+
+/* modal 5 cutom token list display styling */
+
+.modal5Body{
+    width: 100%;
+    height: 90vh;
+    z-index: 4;
+    position: fixed;
+} 
+
+.modalFiveContainer{
+    box-sizing: border-box;
+    position: fixed;
+    width: 394px;
+    height: 547px;
+    right: 35px;
+    top: 70px;
+    background: #FFFFFF;
+    border: 1px solid #CED0D9;
+    border-radius: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+.subContainer2{
+  padding: 10px 10px 0;
+}
+
+.firstUpperFlex2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.manageFont2{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-top: 5px;
+}
+
+.buttonContainer2{
+  width: 100%;
+  height: 40px;
+  background-color: #F7F8FA;
+  border: 1px solid #D5D7DF;
+  border-radius: 12px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Buttons3{
+  background-color: #F7F8FA;
+  border-radius: 12px;
+  width: 48%;
+  height: 32px;
+  margin: auto;
+  border: none;
+  font-size: 15px;
+  line-height: 19px;
+}
+
+.Buttons3:hover,
+.Buttons3:focus{
+  background-color: #888D9B;
+  color: white;
+  border: 1px solid #D5D7DF;
+}
+
+.search2{
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  border: 1px solid #D5D7DF;
+  border-radius: 16px;
+  font-size: 15px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+}
+
+.search2:focus{
+  outline: none;
+}
+
+.subContainer3{
+  width: 100%;
+  height: 275px;
+  padding: 20px 0 0 20px;
+}
+
+.custom{
+  line-height: 19px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.customFont{
+  width: 90%;
+  text-align: center;
+  line-height: 19px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.lastDiv2{
+  padding: 25px 0 0px 30px;
+  width: 100%;
+  height: 90px;
+  background: #F7F8FA;
+  border-radius: 0px 0px 16px 16px;
+  }
